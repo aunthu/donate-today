@@ -1,0 +1,310 @@
+body
+{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    margin-bottom: 8%;
+}
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(71, 62, 62, 0.367), rgba(43, 38, 38, 0.898)),url(./images/donation2.jpg); 
+     width: 100%; 
+     height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+}
+.banner-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+.banner-text h1{
+    font-size: 70px;
+    line-height: 30px;
+}
+.banner-text p{
+    padding: 20px;
+    font-size: 18px;
+}
+.donate-button{
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: rgb(246, 94, 67);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.donate-content{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.donate-content p{
+    color: grey;
+    font-size: 18px;
+}
+.donate-content h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.donate-option{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-left: 25% ;
+    padding-right: 25%;
+}
+.donate-option div{
+    width: 15%;
+    height: 16vh;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0 10px;
+    box-sizing: content-box;
+    color: grey;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+}
+.donate-option div:nth-child(4)
+{
+    border: 3px solid #f4b69d ;
+    background-color: #f2d1c4;
+    
+}
+.donate-input{
+    margin-top: 5%;
+}
+
+.donate-section .donate-input input{
+    font-size: 20px;
+    border-style: solid;
+    border-top:  #ffffff;
+    border-left: #ffffff;
+    border-right: #ffffff;
+
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn{
+    
+    display: flex;  
+justify-content: center;  
+align-items: center;
+}
+.donate-section .btn a{
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: white;
+    background-color: tomato;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+
+div.donate-content_3{
+    margin-top: 120px;
+    text-align: center;
+}
+.donate-content_3 h1{
+    font-size: 40px;
+}
+.donate-content_3 p{
+    color: grey;
+}
+ .card {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 400px;
+        margin: 40px 100px;
+      }
+
+ .card div{
+  
+    align-items: center;
+    margin: 10px;
+    
+    width: 28%;
+    height: 50vh;
+}
+.first-card{
+    background-color: rgba(250, 220, 220, 0.969);
+    box-sizing: border-box;
+    padding: 40px 20px;
+    text-align:left;
+    border-radius: 8px;
+    font-weight: 300;
+    
+}
+.second-card{
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    text-align:left;
+    border-radius: 8px;
+    font-weight: 300;
+}
+.third-card{
+    background-color: rgb(224, 251, 251);
+    box-sizing: border-box;
+    padding: 40px 20px;
+    text-align:left;
+    border-radius: 8px;
+    font-weight: 400;
+}
+
+.first-card p,.second-card p,.third-card p{
+    font-size:18px ;
+    color: gray;
+}
+.why-donate{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+.bonus-section{
+    display: flex;
+    
+}
+
+.img{
+    width: 50%;
+    height: 70vh;
+    margin-left: 0;
+}
+.img img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.bonus-blog1{
+    margin-left: 100px;
+    margin-right:100px ;
+    text-align: left;
+    width: 50%;
+}
+
+.img2{
+    width: 50%;
+    height: 70vh;
+    margin-left: 100px;
+    margin-right:140px ;
+}
+.img2 img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+.bonus-blog2{
+    text-align: left;
+    width: 50%;
+    margin-right: 100px;
+}
+.bonus-blog1 h1 ,.bonus-blog2 h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.bonus-blog1 p ,.bonus-blog2 p{
+    color: grey;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.bonus-blog1 a, .bonus-blog2 a{
+    text-decoration: none;
+    padding: 15px 30px;
+    
+    background-color: rgb(246, 94, 67);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.get-update{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.get-update h1{
+    font-size: 40px;
+    font-weight: 1000px;
+}
+.get-update p{
+    color: grey;
+    font-size: 18px;
+}
+.email-subscribe{
+    
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 9%;
+    background-color: bisque;
+
+}
+.email{
+    padding: 15px 70px;
+    background-color: #ddd;
+    color: grey;
+    border: none;
+    border-radius:5px 0px 0px 5px;
+    margin-right: collapse ;
+    font-size: 18px;
+}
+.subscribe{
+    padding: 15px 70px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius:0px 5px 5px 0px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: rgb(4, 4, 24);
+    color: white;
+    height:150px;
+    box-sizing: border-box;
+
+}
+.footer-content{
+    display:inline-block ;
+    margin-top:2% ;
+    margin-left: 45%;
+    
+}
+.footer-content h1{
+    font-style: italic;
+    color: rgb(141, 21, 21);
+}
+.footer-content p{
+   text-align: center;
+   margin-bottom: 5px;
+}
